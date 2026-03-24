@@ -1,8 +1,8 @@
 :root {
-  --primary: #2563eb;
-  --primary-hover: #1d4ed8;
+  --primary: #0d9488; /* Teal 600 */
+  --primary-hover: #0f766e; /* Teal 700 */
   --secondary: #64748b;
-  --bg-gradient: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+  --bg-gradient: linear-gradient(135deg, #f0fdfa 0%, #e2e8f0 100%);
   --white: #ffffff;
   --text-main: #1e293b;
   --text-muted: #475569;
@@ -56,8 +56,9 @@ h1 {
   font-size: 3.5rem;
   font-weight: 800;
   margin-bottom: 1.5rem;
-  background: linear-gradient(to right, #2563eb, #7c3aed);
+  background: linear-gradient(to right, #0d9488, #0ea5e9);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   letter-spacing: -0.025em;
 }
@@ -89,7 +90,7 @@ p {
   background: var(--primary);
   color: var(--white);
   border: none;
-  box-shadow: 0 4px 6px -1px rgba(37, 99, 235, 0.2);
+  box-shadow: 0 4px 6px -1px rgba(13, 148, 136, 0.2);
 }
 
 .btn-primary:hover {

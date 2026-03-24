@@ -1,0 +1,21 @@
+{
+  "type": "web_service",
+  "name": "hospital-management-backend",
+  "ownerId": "tea-d6t4sc7fte5s73fjbgqg",
+  "repo": "https://github.com/viraktamathkalpana-netizen/Hospital_Management",
+  "branch": "main",
+  "rootDir": "backend",
+  "env": "python",
+  "envVars": [
+    {
+      "key": "DATABASE_URL",
+      "value": "postgresql://neondb_owner:npg_Xay19pYvLNbU@ep-morning-waterfall-a5v4q9m2.us-east-1.aws.neon.tech/neondb?sslmode=require"
+    }
+  ],
+  "serviceDetails": {
+    "plan": "free",
+    "region": "oregon",
+    "buildCommand": "pip install -r requirements.txt",
+    "startCommand": "uvicorn main:app --host 0.0.0.0 --port $PORT"
+  }
+}

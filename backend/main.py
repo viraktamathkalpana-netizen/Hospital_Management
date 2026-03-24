@@ -23,6 +23,7 @@ class UserProfile(Base):
     email = Column(String, unique=True, index=True)
     password_hash = Column(String)
     role = Column(String)
+    phone_number = Column(String)
     created_at = Column(DateTime, default=datetime.utcnow)
     updated_at = Column(DateTime, default=datetime.utcnow)
 
@@ -41,6 +42,7 @@ class UserCreate(BaseModel):
     email: str
     password: str
     role: str
+    phone_number: str = None
 
 @app.get("/")
 def read_root():
@@ -52,7 +54,8 @@ def create_user(user: UserCreate, db: Session = Depends(get_db)):
         username=user.username,
         email=user.email,
         password_hash=user.password, # In a real app, use hashing!
-        role=user.role
+        role=user.role,
+        phone_number=user.phone_number
     )
     db.add(db_user)
     try:
