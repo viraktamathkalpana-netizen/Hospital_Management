@@ -32,7 +32,7 @@ export default function Signup() {
     <main className="container hero">
       <div className="glass-card" style={{ maxWidth: '600px', marginTop: '5rem', marginBottom: '5rem' }}>
         <h1 style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>Create Account</h1>
-        <p style={{ marginBottom: '2rem' }}>Join Hospital Management to get started.</p>
+        <p style={{ marginBottom: '2rem' }}>Join Janani Hospital to get started.</p>
         
         {error && <p style={{ color: '#ef4444', marginBottom: '1rem', fontWeight: 600 }}>{error}</p>}
 

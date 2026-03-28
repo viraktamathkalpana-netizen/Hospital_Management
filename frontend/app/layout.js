@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Hospital Management",
+  title: "Janani Hospital",
   description: "Your Health, Our Priority. The most intuitive hospital management system for modern healthcare.",
 };
 

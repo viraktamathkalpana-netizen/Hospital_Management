@@ -19,7 +19,7 @@ export default function Login() {
     <main className="container hero">
       <div className="glass-card" style={{ maxWidth: '500px' }}>
         <h1 style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>Welcome Back</h1>
-        <p style={{ marginBottom: '2rem' }}>Sign in to continue to Hospital Management.</p>
+        <p style={{ marginBottom: '2rem' }}>Sign in to continue to Janani Hospital.</p>
         
         <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem', textAlign: 'left' }}>
           <div>
