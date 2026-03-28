@@ -1,7 +1,7 @@
 import psycopg2
 import sys
 
-DATABASE_URL = "postgresql://neondb_owner:npg_Xay19pYvLNbU@ep-morning-waterfall-a5v4q9m2.us-east-1.aws.neon.tech/neondb?sslmode=require"
+DATABASE_URL = "postgresql://neondb_owner:npg_Rp0Sd2olYUui@ep-dawn-queen-amsi1h9g-pooler.c-5.us-east-1.aws.neon.tech/neondb?sslmode=require"
 
 def migrate():
     try:
