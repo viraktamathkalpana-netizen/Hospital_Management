@@ -23,9 +23,8 @@ export default function Signup() {
       return;
     }
     setError('');
-    // TODO: Connect to backend
-    alert(`Account created for ${formData.email} as ${formData.role}`);
-    window.location.href = '/login';
+    // Connect to backend when ready
+    window.location.href = '/dashboard';
   };
 
   return (

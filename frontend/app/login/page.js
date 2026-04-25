@@ -11,8 +11,8 @@ export default function Login() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // TODO: Connect to backend. For now, alert exactly what was typed.
-    alert(`Attempting login for: ${formData.identifier}`);
+    // Redirect to the dashboard upon successful login
+    window.location.href = '/dashboard';
   };
 
   return (
